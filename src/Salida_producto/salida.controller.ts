@@ -11,7 +11,7 @@ import {
 import { SalidaService } from './salida.service';
 import { CreateSalidaDto } from './dto/salida.dto';
 
-@Controller('Salida_produto')
+@Controller('Salida_producto')
 export class SalidaController {
   constructor(private readonly salidaServiceRepo: SalidaService) {}
 
